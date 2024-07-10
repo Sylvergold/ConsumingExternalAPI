@@ -18,5 +18,5 @@ console.log(error.message)
 
 const port = process.env.port || 5050;
 app.listen(port, ()=>{
-    console.log(`Server is listening on port: ${port}`)
+    console.log(`Serveyr is listening on port: ${port}`)
 });
