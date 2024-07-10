@@ -1,0 +1,28 @@
+{
+  "name": "consumingexternalapi",
+  "version": "1.0.0",
+  "description": "Consuing an external API using axios",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "external",
+    "API",
+    "node",
+    "nodemon",
+    "express",
+    "json",
+    "mongodb"
+  ],
+  "author": "Ogudu Sylvester",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
+    "nodemon": "^3.1.4"
+  }
+}
